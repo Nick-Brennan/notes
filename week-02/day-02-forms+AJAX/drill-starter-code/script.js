@@ -2,7 +2,10 @@
 $(document).ready(function(){
     
     function buildGitHubLink(student){
-        var link = "<a href='https://github.com/" + student.github_username + "'>" + student.first_name + " " + student.last_name + "</a>";
+        var link = "<a href='https://github.com/" +
+            student.github_username + "'>" +
+            student.first_name + " " +
+            student.last_name + "</a>";
         return link;
     }
 
