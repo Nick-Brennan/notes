@@ -29,8 +29,7 @@ function letterCount(word){
        }else{
         countObj[word[i]]++;
        }
-    }
-       
+    }      
     console.log(countObj); 
 }
 
